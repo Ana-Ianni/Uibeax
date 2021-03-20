@@ -3,6 +3,11 @@
     left: 0;
     max-height: 100vh;
     overflow: hidden;
-    position: absolute;
-    z-index: 1;
-}
+    position: relative;
+    z-index: 1;}
+
+    .coverImg{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
