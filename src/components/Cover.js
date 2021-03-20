@@ -4,7 +4,7 @@ const Cover = () =>{
 
     return(
         <div className="cover">
-            <img src="/multimedia/cover.png" alt=""/>
+            <img src="/multimedia/cover.png" alt="" className="coverImg"/>
         </div>
     )
 }
