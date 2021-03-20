@@ -1,0 +1,54 @@
+.navBar{
+    z-index: 3;
+    position: fixed;
+    top: 25px;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    justify-content: space-between;
+    
+    .linksWrap{
+        justify-content: space-between;
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        margin-top: 22px;}
+
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        width: 63%;
+        justify-content: space-between;}
+
+    li a{
+        font-family: 'Asap', sans-serif;
+        color: $white;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 40px;
+        text-decoration: none;}
+
+    .btnNav{
+        font-size: 16px;
+        background-color: transparent;
+        width: 32%;
+        height: 40px;
+        color: $white;
+        border: 2px solid $white;
+        border-radius: 10px;
+    }
+    .btnNav a, .btnNav a:hover{
+        text-decoration: none;
+        font-family: 'Asap', sans-serif;
+        font-size: 16px;
+        height: 40px;
+        color: $white;
+    }
+}
+
+$white: #FFFBEF;

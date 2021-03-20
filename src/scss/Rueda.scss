@@ -1,0 +1,21 @@
+.rueda{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    height: auto;
+    object-fit: contain;
+    .imgRueda{
+        margin-right: 1.5%;
+        margin-left: 1.5%;
+        width: 97%;
+        max-width: 97%;
+        overflow: hidden;
+        height: auto;
+
+        img{
+            position: relative;
+            max-width: 100%;
+            object-fit: scale-down;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.nosotros{
+    width: 54%;
+    margin-left: 23vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    div{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    div h2{
+        margin-bottom: 45px;
+        width: fit-content;
+        background-color: #EE45DD;
+        color: #1F1B34;
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 98px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    p{
+        font-family: 'Titillium Web', sans-serif;
+        color: #FFFBEF;
+        font-size: 30px;
+        line-height: 45px;
+        font-weight: 700;
+    }
+}

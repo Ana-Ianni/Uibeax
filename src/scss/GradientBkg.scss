@@ -1,0 +1,11 @@
+.gradientBkg{
+    top: -5px;
+    width: 100%;
+    position: relative;
+    background: rgb(250,178,85);
+    background: radial-gradient(circle at bottom, rgba(250,178,85,1) 0%, rgba(238,69,221,1) 50%, rgba(98,31,151,1) 100%);
+    min-height: 100vh;
+}
+
+$gradient-background: radial-gradient(214.54% 91.97% at 48.83% 93.41%, #FAB255 0%, #EE45DD 50.52%, #621F97 99.88%);
+

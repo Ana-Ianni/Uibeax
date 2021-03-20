@@ -1,0 +1,82 @@
+.contacto{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+     h2{
+        width: 370px;
+        line-height: 128px;
+        background-color: #FDFF8F;
+        text-align: center;
+        font-family: Maven Pro;
+        font-weight: bold;
+        font-size: 60px;
+        text-align: center;
+        color: #1F1B34;
+     }
+    img{
+        width: 310px;
+        object-fit: contain;
+    }}
+
+    form{
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        border-top: 5px solid #DBDBDF;
+        padding-top: 38px;
+        display: flex;
+        flex-direction: column;
+    
+        input{
+            border: transparent;
+            height: 52px;
+            background-color: transparent;
+            border-bottom: 1px solid #DBDBDF;
+            width: 100%;
+            color: #FFFBEF;
+            font-family: Asap;
+            font-size: 30px;
+            line-height: 34px;
+            margin-bottom: 55px;
+        }
+    
+        .sendWrap{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }}
+
+    .send{
+        cursor: pointer;
+        background-color: transparent;
+        color: #FFFBEF;
+        border: 2px solid #FFFBEF;
+        border-radius: 20px;
+        height: 92px;
+        width: 222px;
+        font-family: Titillium Web;
+        font-weight: bold;
+        font-size: 30px;
+        color: #FFFBEF;
+    }
+}
+
+.descFooter{
+    font-family: PT Serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFBEF;
+}

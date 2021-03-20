@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+@import  "Quote.scss";
+@import  "NavBar.scss";
+@import  "GradientBkg.scss";
+@import  "Proposito.scss";
+@import  "Nosotros.scss";
+@import  "Animation.scss";
+@import  "Servicios.scss";
+@import  "PurpleCont.scss";
+@import  "CardTeam.scss";
+@import  "Valores.scss";
+@import  "Contacto.scss";
+@import  "Rueda.scss";
+@import  "Proceso.scss";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// VARIABLES
+
+$black: #1F1B34;
+$white: #FFFBEF;
+$gradient-background: radial-gradient(214.54% 91.97% at 48.83% 93.41%, #FAB255 0%, #EE45DD 50.52%, #621F97 99.88%);
+
+//MIXINS
+
+@mixin titulos{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;}
+
+html {
+    scroll-behavior: smooth;
+    }
