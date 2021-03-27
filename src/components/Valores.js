@@ -2,9 +2,9 @@ import React from 'react';
 
 const Valores = () =>{
     return(
-        <div className="valores">
+        <div className="valores height padding">
             <div className="tituloValores">
-                <h2>Valores</h2>
+                <h2 className="titulo">Valores</h2>
             </div>
 
             <div className="valoresWrap">

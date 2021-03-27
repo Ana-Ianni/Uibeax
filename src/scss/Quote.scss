@@ -2,13 +2,13 @@ $white: #FFFBEF;
 
 .quoteCover{
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     background: rgba(196, 196, 196, 0.25);
     height: 25px;
     z-index: 3;
-    padding-top: 4px;
+    padding-top: 2px;
 
     p{
         font-family: 'Asap', sans-serif;

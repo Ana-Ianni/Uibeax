@@ -12,10 +12,31 @@
         overflow: hidden;
         height: auto;
 
-        img{
+        .ruedaLg{
             position: relative;
             max-width: 100%;
             object-fit: scale-down;
         }
     }
+}
+
+.ruedaSm{
+    display: none;
+}
+
+@media(max-width: 600px){
+    .ruedaSm{
+        display: flex;
+        position: relative;
+        max-width: 100%;
+        object-fit: contain;
+    }
+    .ruedaLg{
+        display: none!important;
+    }
+
+    .contacto form {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;}
 }

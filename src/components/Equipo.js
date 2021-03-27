@@ -3,9 +3,9 @@ import CardTeam from './CardTeam';
 
 const Equipo = () =>{
     return(
-        <div className="equipo">
+        <div className="equipo height ">
             <div className="equipoWrap">
-                <h2>Equipo</h2>
+                <h2 className="titulo">Equipo</h2>
             </div>
             <CardTeam/>
         </div>

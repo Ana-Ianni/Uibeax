@@ -2,16 +2,7 @@
     width: 37.5vw;
 
     h2{
-        margin-bottom: 45px;
-        width: fit-content;
         background-color: #16C7B2;
-        color: #1F1B34;
-        font-family: 'Maven Pro', sans-serif;
-        font-size: 60px;
-        font-weight: 700;
-        line-height: 98px;
-        padding-left: 32px;
-        padding-right: 32px;
     }
 
     p{
@@ -23,13 +14,14 @@
     }
 }
 
+.height{
+    min-height: 100vh;
+}
+
 .proposito{
+    align-items: center;
     justify-content: space-between;
     display: flex;
-    padding-right: 6.25vw;
-    padding-left: 6.25vw;
-    height: 90vh;
-    padding-top: 25vh;
 }
 
 
@@ -39,6 +31,19 @@
         width: 600px;
         top: -18%;
     }
+}
+
+.titulo{
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    width: fit-content;
+    color: #1B1333;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
 }
 
 @media(max-width: 1700px){
@@ -95,7 +100,7 @@
 @media(max-width: 1250px){
     .navBar .linksWrap{
         justify-content: space-between;
-        width: 60%!important;}
+        width: 60%;}
 
     .img{
         height: 50%!important;
@@ -167,4 +172,46 @@
     .descFooterWrap{
         font-size: 9px!important;
     }
+}
+
+.serviciosBg{
+    background-color: #E59F31;
+    }
+
+.propositoSm{
+    display: none;
+}
+
+@media(max-width: 800px){
+    .proposito{
+        display: none!important;
+    }
+    .propositoSm{
+        padding-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        .tituloWrap{
+            width: 100%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        .propositoBg{
+                background-color: #16C7B2;
+            }
+        }
+        img{
+            height: 30vh;
+            object-fit: contain;
+            overflow-x: hidden;    
+    }}
+    .mobileText{
+        font-family: 'Titillium Web', sans-serif;
+        color: #FFFBEF;
+        font-size: 18px!important;
+        line-height: 24px!important;
+        font-weight: 700;
+        text-align: center;
+        }
+
+
 }

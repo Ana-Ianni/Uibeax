@@ -2,9 +2,9 @@ import React from 'react';
 
 const Contacto = () =>{
     return(
-        <div className="contacto" id="contacto">
+        <div className="contacto padding" id="contacto">
             <div>
-                <h2>Contactanos</h2>
+                <h2 className="titulo">Contactanos</h2>
             </div>
             <div>
                 <img src="/multimedia/img-form.png" alt="" className="nube"/>

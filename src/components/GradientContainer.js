@@ -1,6 +1,5 @@
 import React from 'react';
 import Proposito from "./Proposito"
-import Nosotros from "./Nosotros"
 import Servicios from "./Servicios"
 import Animation from "./Animation"
 import Rueda from './Rueda';
@@ -10,7 +9,6 @@ const GradientContainer = () =>{
     return(
         <div className="gradientBkg">
             <Proposito/>
-            <Nosotros/>
             <Servicios/>
             <Rueda/>
             <Proceso/>

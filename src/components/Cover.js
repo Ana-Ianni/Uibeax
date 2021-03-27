@@ -4,7 +4,9 @@ const Cover = () =>{
 
     return(
         <div className="cover">
-            <img src="/multimedia/cover.png" alt="" className="coverImg"/>
+            <video autoPlay loop muted playsInline width="100%">
+                <source type="video/mp4" src={process.env.PUBLIC_URL + "/multimedia/cover_baja.mp4"}/>
+            </video>
         </div>
     )
 }
@@ -12,6 +14,4 @@ const Cover = () =>{
 export default Cover;
 
 
-/*            <video autoPlay loop muted playsInline width="100%">
-                <source type="video/mp4" src={process.env.PUBLIC_URL + "/multimedia/cover.mp4"}/>
-            </video> */
+/*      <img src="/multimedia/cover.png" alt="" className="coverImg"/>      */

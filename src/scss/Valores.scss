@@ -12,6 +12,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 8%;
 }
 
 .valor{
@@ -40,12 +42,5 @@
     justify-content: center;
 
     h2{
-        margin-top: 105px;
-        text-align: center;
-        line-height: 128px;
         background-color: #A68FFF;
-        width: 370px;
-        font-size: 60px;
-        font-weight: bold;
-        font-family: Maven Pro;
     }}

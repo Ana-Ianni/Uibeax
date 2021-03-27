@@ -2,9 +2,9 @@ import React from 'react';
 
 const Proceso = () =>{
     return(
-        <div className="proceso">
+        <div className="proceso height padding">
             <div className="tituloProceso">
-                <h2>Nuestro Proceso</h2>
+                <h2 className="titulo">Nuestro Proceso</h2>
             </div>
 
             <div className="procesoWrap">

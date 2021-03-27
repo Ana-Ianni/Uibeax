@@ -2,14 +2,12 @@ import React from 'react';
 
 const NavBar = () =>{
     return(
-        <div className="navBar">
-            <img src="/multimedia/logo-nav.svg" alt="Logo Uibeax" className="logo"/>
-
+        <div className="navBar padding">
+            <div className="logoWrap">
+                <img src="/multimedia/logo-nav.svg" alt="Logo Uibeax" className="logo"/>
+            </div>
             <div className="linksWrap">
                 <ul>
-                    <li>
-                        <a href="#proposito">Propósito</a>
-                    </li>
                     <li>
                         <a href="#nosotros">¿Quienes somos?</a>
                     </li>
@@ -24,3 +22,7 @@ const NavBar = () =>{
 }
 
 export default NavBar;
+
+/*                    <li>
+                        <a href="#proposito">Propósito</a>
+                    </li>  */

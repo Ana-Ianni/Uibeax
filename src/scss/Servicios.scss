@@ -9,10 +9,7 @@
 .servicios{
     justify-content: space-between;
     display: flex;
-    padding-right: 6.25vw;
-    padding-left: 6.25vw;
-    height: 90vh;
-    padding-top: 25vh;
+    align-items: center;
 }
 
 
@@ -29,16 +26,7 @@
     }
 
     div h2{
-        margin-bottom: 45px;
-        width: fit-content;
         background-color: #E59F31;
-        color: #1F1B34;
-        font-family: 'Maven Pro', sans-serif;
-        font-size: 60px;
-        font-weight: 700;
-        line-height: 98px;
-        padding-left: 32px;
-        padding-right: 32px;
     }
 
     p{
@@ -47,5 +35,11 @@
         font-size: 30px;
         line-height: 45px;
         font-weight: 700;
+    }
+}
+
+@media(max-width: 800px){
+    .servicios{
+        display: none!important;
     }
 }
