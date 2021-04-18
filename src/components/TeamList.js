@@ -11,7 +11,7 @@ const Equipo = [
         id: 2, 
         name: "Delfina Galan",
         img: "/multimedia/delfi.jpg", 
-        in: "www.linkedin.com/in/delfinagalán"
+        in: "https://www.linkedin.com/in/delfinagalán/"
     },
     {
         id: 3, 

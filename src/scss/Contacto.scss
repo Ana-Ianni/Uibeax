@@ -1,25 +1,23 @@
-.contacto{
-    margin-top: 60px;
+.contacto {
+    margin-top: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-bottom: 70px;
-
-    div{
+    div {
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-bottom: 60px;
-     h2{
-        background-color: #FDFF8F;
-     }
-    img{
-        width: 310px;
-        object-fit: contain;
-    }}
-
-    form{
+        h2 {
+            background-color: #FDFF8F;
+        }
+        img {
+            width: 310px;
+            object-fit: contain;
+        }
+    }
+    form {
         width: 40%;
         margin-left: 30%;
         margin-right: 30%;
@@ -27,8 +25,7 @@
         padding-top: 38px;
         display: flex;
         flex-direction: column;
-    
-        input{
+        input {
             border: transparent;
             height: 52px;
             background-color: transparent;
@@ -36,18 +33,17 @@
             width: 100%;
             color: #FFFBEF;
             font-family: Asap;
-            font-size: 30px;
+            font-size: 22px;
             line-height: 34px;
             margin-bottom: 55px;
         }
-    
-        .sendWrap{
+        .sendWrap {
             display: flex;
             width: 100%;
             justify-content: center;
-        }}
-
-    .send{
+        }
+    }
+    .send {
         cursor: pointer;
         background-color: transparent;
         color: #FFFBEF;
@@ -62,13 +58,26 @@
     }
 }
 
-.descFooter{
-    font-family: PT Serif;
+.descFooter {
+    font-family: Titillium Web;
     font-weight: bold;
     font-size: 18px;
     line-height: 24px;
-    display: flex;
-    align-items: center;
     text-align: center;
     color: #FFFBEF;
+}
+
+.noBottomBoder {
+    border: none!important;
+}
+
+.backTop {
+    width: fit-content;
+    position: absolute;
+    bottom: 8rem;
+    right: 10rem;
+    img {
+        object-fit: contain;
+        height: 40px;
+    }
 }

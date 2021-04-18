@@ -3,16 +3,14 @@ import Equipo from "./TeamList";
 
 const CardTeam = () => {
 
-    console.log(Equipo)
-
     const cardIntegrante = Equipo.map((member)=>
             <div className="teamCard" key={member.id}>
                 <img src={member.img} className="img"/>
                 <div className="memberInfo">
-                    <p>{member.name}</p>
                     <a href={member.in}>
                         <img src="/multimedia/logo-in.png" alt="" className="logo-in"/>
                     </a>
+                    <p className="mobileText">{member.name}</p>
                 </div>
             </div>
     )

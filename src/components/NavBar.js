@@ -3,9 +3,9 @@ import React from 'react';
 const NavBar = () =>{
     return(
         <div className="navBar padding">
-            <div className="logoWrap">
+            <a className="logoWrap" href="#top">
                 <img src="/multimedia/logo-nav.svg" alt="Logo Uibeax" className="logo"/>
-            </div>
+            </a>
             <div className="linksWrap">
                 <ul>
                     <li>

@@ -1,18 +1,17 @@
-.rueda{
+.rueda {
     width: 100%;
     max-width: 100%;
     overflow: hidden;
     height: auto;
     object-fit: contain;
-    .imgRueda{
+    .imgRueda {
         margin-right: 1.5%;
         margin-left: 1.5%;
         width: 97%;
         max-width: 97%;
         overflow: hidden;
         height: auto;
-
-        .ruedaLg{
+        .ruedaLg {
             position: relative;
             max-width: 100%;
             object-fit: scale-down;
@@ -20,23 +19,33 @@
     }
 }
 
-.ruedaSm{
+.ruedaSm {
     display: none;
 }
 
-@media(max-width: 600px){
-    .ruedaSm{
+.tituloRueda {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    h2 {
+        background-color: #8482FF;
+    }
+}
+
+@media(max-width: 600px) {
+    .ruedaSm {
         display: flex;
         position: relative;
         max-width: 100%;
         object-fit: contain;
     }
-    .ruedaLg{
+    .ruedaLg {
         display: none!important;
     }
-
     .contacto form {
         width: 100%;
         margin-left: 0%;
-        margin-right: 0%;}
+        margin-right: 0%;
+    }
 }

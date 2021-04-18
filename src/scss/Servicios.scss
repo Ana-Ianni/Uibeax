@@ -1,35 +1,32 @@
-.serviciosLeft{
-    img{
+.serviciosLeft {
+    img {
         position: relative;
         width: 600px;
         top: -18%;
     }
 }
 
-.servicios{
+.servicios {
     justify-content: space-between;
     display: flex;
     align-items: center;
 }
 
-
-.serviciosRight{
+.serviciosRight {
     text-align: end;
     display: flex;
     width: 37.5vw;
     flex-direction: column;
-
-    div{
+    div {
         display: flex;
         width: 100%;
         justify-content: flex-end;
     }
-
-    div h2{
-        background-color: #E59F31;
+    div h2,
+    .serviciosBg {
+        background-color: #F160BB!important;
     }
-
-    p{
+    p {
         font-family: 'Titillium Web', sans-serif;
         color: #FFFBEF;
         font-size: 30px;
@@ -38,8 +35,8 @@
     }
 }
 
-@media(max-width: 800px){
-    .servicios{
+@media(max-width: 800px) {
+    .servicios {
         display: none!important;
     }
 }

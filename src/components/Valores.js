@@ -10,19 +10,19 @@ const Valores = () =>{
             <div className="valoresWrap">
                 <div className="valor">
                         <img src="/multimedia/transparencia.gif" alt="" className="valoresImg"/>
-                        <p>Transparencia</p>
+                        <p className="mobileText">Transparencia</p>
                 </div>
                 <div className="valor">
                         <img src="/multimedia/libertad.gif" alt="" className="valoresImg"/>
-                        <p>Libertad</p>
+                        <p className="mobileText">Libertad</p>
                 </div>
                 <div className="valor">
                         <img src="/multimedia/explorar.gif" alt="" className="valoresImg"/>
-                        <p>Explorar</p>
+                        <p className="mobileText">Explorar</p>
                 </div>
                 <div className="valor">
                         <img src="/multimedia/empatia.gif" alt="" className="valoresImg"/>
-                        <p>Empatía</p>
+                        <p className="mobileText">Empatía</p>
                 </div>
             </div>
         </div>

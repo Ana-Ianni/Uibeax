@@ -1,57 +1,51 @@
-.proceso{
+.proceso {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-bottom: 60px;
-
-    .tituloProceso{
+    margin-bottom: -5rem;
+    .tituloProceso {
         width: 100%;
         display: flex;
         justify-content: center;
         text-align: center;
-
-        h2{
+        h2 {
             background-color: #95D9FF;
         }
     }
-
-    .procesoWrap{
+    .procesoWrap {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-    
-        .process{
+        .process {
             width: 45%;
             display: flex;
             flex-direction: column;
             height: 60vh;
-        
-        img{
-            object-fit: contain;
-            height: 40%;
+            img {
+                object-fit: contain;
+                height: 40%;
+            }
+            h3 {
+                text-align: center;
+                width: 100%;
+                font-family: Asap;
+                font-weight: bold;
+                font-size: 46px;
+                line-height: 53px;
+                color: #1F1B34;
+                margin-bottom: 1.5rem;
+            }
+            p {
+                margin-left: 12.5%;
+                width: 75%;
+                font-family: Titillium Web;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 46px;
+                text-align: center;
+                color: #FFFBEF;
+            }
         }
-    
-        h3{
-            text-align: center;
-            width: 100%;
-            font-family: Asap;
-            font-weight: bold;
-            font-size: 46px;
-            line-height: 53px;
-            color: #1F1B34;
-            margin-bottom: 1.5rem;
-        }
-    
-        p{
-            padding-left: 5%;
-            width: 100%;
-            font-family: Titillium Web;
-            font-weight: bold;
-            font-size: 30px;
-            line-height: 46px;
-            text-align: center;
-            color: #FFFBEF;
-        }}
     }
 }

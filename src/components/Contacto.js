@@ -14,12 +14,14 @@ const Contacto = () =>{
 
                 <input type="text" name="mail" placeholder="Tu mail"/>
 
-                <input type="text" name="text" placeholder="¿Qué te gustaría saber?"/>
-
                 <div className="sendWrap">
                     <button type="submit" className="send">Enviar</button>
                 </div>
             </form>
+
+            <a href="#top" className="backTop">
+                <img src="/multimedia/boton_subir.png" alt=""/>
+            </a>
         </div>
     )
 }

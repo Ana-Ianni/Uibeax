@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../scss/App.scss';
 import Cover from "./Cover"
-import Quote from "./Quote"
 import NavBar from "./NavBar"
 import GradientContainer from "./GradientContainer"
 import PurpleContainer from "./PurpleContainer"
@@ -13,7 +12,6 @@ const Index = () =>{
     return(
         <>
         <Router>
-            <Quote/>
             <NavBar/>
             <Cover/>
             <GradientContainer/>

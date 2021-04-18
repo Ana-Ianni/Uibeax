@@ -1,7 +1,7 @@
-.navBar{
+.navBar {
     z-index: 3;
     position: fixed;
-    top: 25px;
+    top: 0px;
     height: 84px;
     display: flex;
     flex-direction: row;
@@ -10,61 +10,63 @@
     width: 100%;
     justify-content: space-between;
     background-color: rgba(27, 19, 51, 0.7);
-    
-    .linksWrap{
+    .logo {
+        height: max-content;
+        width: fit-content;
+    }
+    .linksWrap {
         justify-content: space-between;
         width: 40%;
         display: flex;
         flex-direction: row;
         height: 40px;
-        margin-top: 22px;}
-
-    ul{
+        margin-top: 22px;
+    }
+    ul {
         list-style: none;
         display: flex;
         flex-direction: row;
-        width: 63%;
-        justify-content: space-around;}
-
-    li a{
+        width: 70%;
+        justify-content: space-around;
+    }
+    li a {
         font-family: 'Asap', sans-serif;
-        color: $white;
+        color: #FFFBEF;
         font-size: 16px;
         font-weight: 400;
         line-height: 40px;
-        text-decoration: none;}
-
-    .btnNav{
+        text-decoration: none;
+    }
+    .btnNav {
         font-size: 16px;
         background-color: transparent;
         width: 32%;
         height: 40px;
-        color: $white;
-        border: 2px solid $white;
+        color: #FFFBEF;
+        border: 2px solid #FFFBEF;
         border-radius: 10px;
     }
-    .btnNav a, .btnNav a:hover{
+    .btnNav a,
+    .btnNav a:hover {
         text-decoration: none;
         font-family: 'Asap', sans-serif;
         font-size: 16px;
         height: 40px;
-        color: $white;
+        color: #FFFBEF;
     }
 }
 
-$white: #FFFBEF;
-
-@media(max-width: 600px){
-    .btnNav{
+@media(max-width: 600px) {
+    .btnNav {
         display: none;
     }
-    .navBar{
+    .navBar {
         flex-direction: column;
         padding-left: 0!important;
         padding-right: 0!important;
         height: auto!important;
     }
-    .logoWrap{
+    .logoWrap {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
@@ -73,23 +75,22 @@ $white: #FFFBEF;
         justify-content: center;
         border-bottom: 2px solid white;
     }
-    .logo{
-        height: 35px;
+    .logo {
+        height: 35px!important;
     }
-
     .navBar .linksWrap {
         justify-content: space-around!important;
         width: 100%!important;
         margin-top: 10px;
-        margin-bottom: 10px;}
-
+        margin-bottom: 10px;
+    }
     .navBar ul {
         width: 100%;
-    li{
-        text-align: center;
-    }}
-
-    .height{
+        li {
+            text-align: center;
+        }
+    }
+    .height {
         min-height: 80vh!important;
     }
 }
