@@ -88,6 +88,19 @@
             margin-left: 5%!important;
         }
     }
+
+    @media(max-width: 1500px) {
+        .navBar .linksWrap {
+            width: 60%!important;}
+        h2 {
+            font-size: 35px !important;
+            line-height: 70px !important;}
+        .img{
+            max-height: 270px!important;
+        }
+        .equipo .equipoWrap {
+            margin-bottom: 1rem!important;}
+    }
     
     @media(max-width: 1250px) {
         .navBar .linksWrap {
